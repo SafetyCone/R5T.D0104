@@ -1,0 +1,3 @@
+R5T.D0104.Base - Service definitions for IServiceCollectionAuditSerializer and related services.
+
+GOALS:
