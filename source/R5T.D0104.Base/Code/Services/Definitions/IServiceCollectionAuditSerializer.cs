@@ -1,13 +1,14 @@
 using System;
 using System.Threading.Tasks;
 
-using R5T.Dacia;
-
 
 namespace R5T.D0104
 {
-    [ServiceDefinitionMarker]
+    /// <summary>
+    /// Serializes the service collection of which it is a member for audit purposes.
+    /// </summary>
     public interface IServiceCollectionAuditSerializer
     {
+        Task SerializeServiceCollection();
     }
 }
