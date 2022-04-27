@@ -13,7 +13,7 @@ namespace R5T.D0104.I001
 
 
         public ConstructorBasedServiceCollectionSerializationFileNameProvider(
-            string serviceCollectionSerializationFileName)
+            [NotServiceComponent] string serviceCollectionSerializationFileName)
         {
             this.ServiceCollectionSerializationFileName = serviceCollectionSerializationFileName;
         }
